@@ -66,8 +66,8 @@ public enum DataModel {
 	private SharedPreferences preferences = null;
 
 	public void init(Context context) {
-		preferences = context.getSharedPreferences(
-				PERFERENCES, Context.MODE_PRIVATE);
+		preferences = context.getSharedPreferences(PERFERENCES,
+				Context.MODE_PRIVATE);
 		currentWalletUser = new WalletUser(preferences.getString(
 				CURRENT_WALLET_USER, ""));
 		serverUrl = preferences.getString(TWISTER_SERVER_URL,
@@ -105,6 +105,14 @@ public enum DataModel {
 		SharedPreferences.Editor editor = preferences.edit();
 		editor.putString(TWISTER_SERVER_URL, serverUrl);
 		editor.commit();
+
+		(new GetWalletUsersTask()).executeOnExecutor(threadPool);
+
+		(new GetLastHaveTask()).executeOnExecutor(threadPool,
+				getCurrentWalletUser());
+
+		(new GetSpamPostsTask()).executeOnExecutor(threadPool);
+
 	}
 
 	public Map<String, User> getProfiles() {
