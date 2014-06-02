@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_send_direct_message_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/action_send_direct_message_to_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="To:" />
+
+    <AutoCompleteTextView
+        android:id="@+id/action_send_direct_message_to"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/action_send_direct_message_msg_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Message:" />
+
+    <EditText
+        android:id="@+id/action_send_direct_message_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:imeOptions="actionSend"
+        android:inputType="textMultiLine|textShortMessage"
+        android:lines="2"
+        android:minLines="2" />
+
+</LinearLayout>

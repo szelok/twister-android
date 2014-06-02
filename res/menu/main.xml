@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="szelok.app.twister.MainActivity" >
+
+    <item
+        android:id="@+id/action_send_twist"
+        android:icon="@drawable/ic_action_send_twist"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_send_twist"/>
+        <item
+        android:id="@+id/action_send_direct_message"
+        android:icon="@drawable/ic_action_send_direct_message"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_send_direct_message"/>
+    <item
+        android:id="@+id/action_update_following_user"
+        android:icon="@drawable/ic_action_update_following_user"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_update_following_user"
+        android:actionLayout="@layout/action_following_user_suggest"/>
+    <item
+        android:id="@+id/action_update_wallet_user"
+        android:icon="@drawable/ic_action_update_wallet_user"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_update_wallet_user"
+        android:actionLayout="@layout/action_wallet_user" />
+    <item
+        android:id="@+id/action_update_network_setting"
+        android:showAsAction="never|collapseActionView"
+        android:title="@string/action_update_network_setting"
+        android:actionLayout="@layout/action_network" />
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"  >
+
+    <TextView
+        android:id="@+id/following_user_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".75"
+        android:padding="10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/following_user_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:padding="10dp"
+        android:textAlignment="textEnd"
+        android:textSize="8sp" />
+
+</LinearLayout>

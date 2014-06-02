@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello Twister!</string>
+    <string name="app_name">Twister</string>
+
+    <string name="action_send_twist">New Twist</string>
+    <string name="action_send_direct_message">New Direct Message</string>
+    <string name="action_update_wallet_user">Change Wallet User</string>
+    <string name="action_update_following_user">Following User</string>
+    <string name="action_update_profile">Profile</string>
+    <string name="action_update_network_setting">Network</string>
+    
+    <string name="post">POST</string>
+    <string name="dm">DM</string>
+    <string name="following">FOLLOWING</string>
+</resources>
