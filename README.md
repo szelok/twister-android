@@ -4,6 +4,7 @@ twister-android
 Native Android front-end for Twister.
 
 Most functionalities are there except noteable:
+
 1. Re-twist
 2. Expand twist
 3. Reply to twist
@@ -20,18 +21,23 @@ Screenshot
 These are from emulator.
 
 The Post Screen
+
 ![Post](./screenshot/screenshot-post.png?raw=true "Post")
 
 The Direct Message Screen
+
 ![Direct Message](./screenshot/screenshot-direct-message.png?raw=true "Direct Message")
 
 THe Following Screen
+
 ![Following](./screenshot/screenshot-following.png?raw=true "Following")
 
 The New Twist Screen
+
 ![New Twist](./screenshot/screenshot-new-twist.png?raw=true "Post")
 
 The Add Following Screen
+
 ![Add Following](./screenshot/screenshot-add-following.png?raw=true "Post")
 
 Instruction
