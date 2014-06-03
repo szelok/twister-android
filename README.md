@@ -15,6 +15,25 @@ Please feel free to submit enhancement request.
 
 Note: (Intentionally) It supports API level 14 and above. 
 
+Screenshot
+----------
+These are from emulator.
+
+The Post Screen
+![Post](./screenshot/screenshot-post.png?raw=true "Post")
+
+The Direct Message Screen
+![Direct Message](./screenshot/screenshot-direct-message.png?raw=true "Direct Message")
+
+THe Following Screen
+![Following](./screenshot/screenshot-following.png?raw=true "Following")
+
+The New Twist Screen
+![New Twist](./screenshot/screenshot-new-twist.png?raw=true "Post")
+
+The Add Following Screen
+![Add Following](./screenshot/screenshot-add-following.png?raw=true "Post")
+
 Instruction
 ===========
 Checkout the code and build in your Android IDE. You can try in emulator or real device.
