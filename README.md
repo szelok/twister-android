@@ -54,6 +54,10 @@ It's a simple Android project. Please follow the Android dev workflow.
 
 Feel free to hack and submit pull request (please follow standard GitHub procedures to make things easy).
 
+Pre-built APK
+=============
+On f-droid - https://f-droid.org/repository/browse/?fdid=szelok.app.twister
+
 Warning
 =======
 UI/UX is not very good. It will need a lot of thoughts - suggestion always welcome.
